@@ -90,5 +90,7 @@ sed -i "s@Exec=zed@Exec=/usr/lib/zed.app/libexec/zed-editor@g" /usr/share/applic
 dnf5 clean all
 
 # Call other Scripts
-./desktop-defaults.sh
-./enable-services.sh
+/ctx/desktop-defaults.sh
+/ctx/enable-services.sh
+
+

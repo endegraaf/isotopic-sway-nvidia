@@ -18,7 +18,7 @@ set -ouex pipefail
 # dnf5 -y copr disable ublue-os/staging
 
 echo "Install desktop packages" 
-./desktop-packages.sh
+/ctx/desktop-packages.sh
 
 
 
